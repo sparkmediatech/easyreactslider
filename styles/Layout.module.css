@@ -1,0 +1,65 @@
+
+.mainDiv{
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+ 
+}
+.customDiv{
+    width: 100%;
+    display: flex;
+    transform: translateX(0);
+
+}
+
+.sliderDiv{
+    width:33%;
+    margin: 3px;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.rightBTN{
+    position: absolute;
+    width: 2%;
+    height: 30px;
+    left: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 70px;
+    margin-left: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 100%;
+}
+
+.leftBTN{
+    position: absolute;
+    width: 2%;
+    right: 0;
+    height: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 70px;
+    margin-right: 25px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 100%;
+ }
